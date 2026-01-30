@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { InView } from "react-intersection-observer";
-import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Slider from "./components/Slider";
@@ -17,7 +16,7 @@ export default function App() {
 
   return (
     <>
-      <Navbar />
+      <Slider isHeroVisible={isHeroVisible} />
 
       <InView
         as="div"
@@ -29,8 +28,6 @@ export default function App() {
           <Hero />
         </div>
       </InView>
-
-      <Slider isHeroVisible={isHeroVisible} />
 
       <div id="about">
         <About />

@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-raleway: "Raleway", sans-serif;
-  --font-cursive: "Cedarville Cursive", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
 
-  --color-sage-green: #738678;
-  --color-cream: #fffdd0;
-  --color-hover-cream: #e0ddd1;
+  --color-sage-green: #F5F3EF;
+  --color-cream: #1A1A1A;
+  --color-hover-cream: #4A4A4A;
+  --color-accent: #2D7A6E;
 }
 
 
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Inter", system-ui, sans-serif;
 
   background-color: var(--color-sage-green);
   color: var(--color-cream);
@@ -21,5 +21,18 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
 }
 

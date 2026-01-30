@@ -10,7 +10,7 @@ export default function About() {
     <>
       <section className="container p-4 h-fit md:h-screen">
         <div className="flex flex-col space-y-8 mx-15 md:mx-0">
-          <h1 className="text-5xl md:text-8xl font-bold text-center md:text-start">about.</h1>
+          <h1 className="text-5xl md:text-8xl font-bold font-poppins text-center md:text-start">About</h1>
 
           <div className="grid md:grid-cols-2 gap-4 md:gap-8 max-w-5xl mx-auto">
             {aboutMeItems.slice(0, 2).map((item, index) => (

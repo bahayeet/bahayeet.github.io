@@ -20,37 +20,37 @@ export default function Navbar() {
   return (
     <div
       id="navbar"
-      className="fixed top-0 left-0 w-full bg-sage-green text-cream flex justify-between items-center px-6 py-4 transition-transform transform -translate-y-full z-50"
+      className="fixed top-0 left-0 w-full bg-sage-green/90 backdrop-blur-sm border-b border-cream/10 text-cream flex justify-between items-center px-6 py-4 transition-transform transform -translate-y-full z-50 shadow-sm"
     >
-      <h1 className="text-2xl font-bold">baha demir.</h1>
+      <h1 className="text-2xl font-bold font-poppins">Baha Demir</h1>
       <div className="flex space-x-4">
         <a
-          href="https://www.linkedin.com/in/baha-yigit-demir/"
+          href="https://www.linkedin.com/in/baha-demir"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaLinkedin className="text-xl hover:text-white" />
+          <FaLinkedin className="text-xl hover:text-accent transition" />
         </a>
         <a
-          href="https://github.com/bahayigitdemir"
+          href="https://github.com/bahayeet"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaGithub className="text-xl hover:text-white" />
+          <FaGithub className="text-xl hover:text-accent transition" />
         </a>
         <a
-          href="https://scholar.google.com/citations?user=YOUR_ID"
+          href="https://scholar.google.com/citations?user=fjxjAJUAAAAJ&hl=en"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <SiGooglescholar className="text-xl hover:text-white" />
+          <SiGooglescholar className="text-xl hover:text-accent transition" />
         </a>
         <a
           href="mailto:baha.yigit.demir@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <FaEnvelope className="text-xl hover:text-white" />
+          <FaEnvelope className="text-xl hover:text-accent transition" />
         </a>
       </div>
     </div>
