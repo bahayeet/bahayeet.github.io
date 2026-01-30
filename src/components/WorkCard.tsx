@@ -11,7 +11,6 @@ interface WorkCardProps {
 export default function WorkCard({
   jobTitle,
   companyName,
-  companyUrl,
   dates,
   location,
   description,

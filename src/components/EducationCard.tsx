@@ -10,7 +10,6 @@ interface EducationCardProps {
 export default function EducationCard({
     universityName,
     degreeName,
-    universityUrl,
     dates,
     location,
     gpa,
