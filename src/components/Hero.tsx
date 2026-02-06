@@ -5,10 +5,10 @@ export default function Hero() {
   return (
     <>
       <section className="relative flex flex-col md:flex-row justify-center md:justify-between md:items-center h-screen overflow-hidden">
-        {/* Spinning duck background */}
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-10">
+        {/* Spinning 4D cube background */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none opacity-15">
           <img 
-            src="/duck-spin-no-background.gif" 
+            src="/spinning-4d-cube.gif" 
             alt="" 
             className="w-96 h-96 md:w-[600px] md:h-[600px] object-contain animate-spin-slow"
           />
